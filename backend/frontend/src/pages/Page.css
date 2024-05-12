@@ -1,0 +1,349 @@
+.neumorphism-btn {
+  padding: 1.5em 5em;
+  background: #1e1d1d;
+  border: none;
+  border-radius: .5rem;
+  color: #c83aa4;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: .2rem;
+  text-align: center;
+  outline: none;
+  cursor: pointer;
+  transition: .2s ease-in-out;
+  box-shadow: 
+               -6px -6px 14px rgba(255, 255, 255, .075),
+              -6px -6px 10px rgba(0, 0, 0, .15),
+               6px 6px 8px rgba(255, 255, 255, .7),
+               6px 6px 10px rgba(255, 255, 255, .5);
+}
+
+.neumorphism-btn:hover {
+  box-shadow: -2px -2px 6px rgba(255, 255, 255, .6),
+              -2px -2px 4px rgba(255, 255, 255, .4),
+               2px 2px 2px rgba(255, 255, 255, .05),
+               2px 2px 4px rgba(0, 0, 0, .1);
+}
+
+.neumorphism-btn:active {
+  box-shadow: inset -2px -2px 6px rgba(255, 255, 255, .7),
+              inset -2px -2px 4px rgba(255, 255, 255, .5),
+              inset 2px 2px 2px rgba(255, 255, 255, .075),
+              inset 2px 2px 4px rgba(0, 0, 0, .15);
+}
+
+
+.neumorphism-title {
+  color: #ffffff;
+  padding: 0.2em 0.8em;
+  font-size: 18px;
+  border-radius: 0.5em;
+  background: #212121;
+  border: 1px solid #212121;
+  transition: all 0.3s;
+  box-shadow: 6px 6px 12px #000, -6px -6px 12px #2f2f2f;
+}
+
+
+.neumorphism-black {
+  color: #ea2990;
+  padding: 0.7em 1.7em;
+  font-size: 18px;
+  border-radius: 0.5em;
+  background: #212121;
+  border: 1px solid #212121;
+  transition: all 0.3s;
+  box-shadow: 6px 6px 12px #000, -6px -6px 12px #2f2f2f;
+}
+
+.neumorphism-black:hover {
+  box-shadow: -2px -2px 6px rgba(255, 255, 255, .6),
+              -2px -2px 4px rgba(255, 255, 255, .4),
+               2px 2px 2px rgba(255, 255, 255, .05),
+               2px 2px 4px rgba(0, 0, 0, .1);
+}
+
+.neumorphism-black:active {
+  color: #666;
+  box-shadow: inset 4px 4px 12px #000, inset -4px -4px 12px #1f1f1f;
+}
+
+.btc {
+  background: linear-gradient(30deg, #000 35%, #ea8b19 73%);
+  position: relative;
+  padding: 17px 45px;
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+  border: 3px solid #ea8b19;
+  border-radius: 8px;
+  transition: all .3s ease-in-out;
+}
+
+.star-1 {
+  position: absolute;
+  fill: #ea8b19;
+  top: 20%;
+  left: 20%;
+  width: 25px;
+  height: auto;
+  filter: drop-shadow(0 0 0 #ea8b19);
+  z-index: -5;
+  transition: all 1s cubic-bezier(0.05, 0.83, 0.43, 0.96);
+}
+
+.star-2 {
+  position: absolute;
+  fill: #ea8b19;
+  top: 45%;
+  left: 45%;
+  width: 15px;
+  height: auto;
+  filter: drop-shadow(0 0 0 #ea8b19);
+  z-index: -5;
+  transition: all 1s cubic-bezier(0, 0.4, 0, 1.01);
+}
+
+.star-3 {
+  position: absolute;
+  fill: #ea8b19;
+  top: 40%;
+  left: 40%;
+  width: 5px;
+  height: auto;
+  filter: drop-shadow(0 0 0 #ea8b19);
+  z-index: -5;
+  transition: all 1s cubic-bezier(0, 0.4, 0, 1.01);
+}
+
+.star-4 {
+  position: absolute;
+  fill: #ea8b19;
+  top: 20%;
+  left: 40%;
+  width: 8px;
+  height: auto;
+  filter: drop-shadow(0 0 0 #ea8b19);
+  z-index: -5;
+  transition: all .8s cubic-bezier(0, 0.4, 0, 1.01);
+}
+
+.star-5 {
+  position: absolute;
+  fill: #ea8b19;
+  top: 25%;
+  left: 45%;
+  width: 15px;
+  height: auto;
+  filter: drop-shadow(0 0 0 #ea8b19);
+  z-index: -5;
+  transition: all .6s cubic-bezier(0, 0.4, 0, 1.01);
+}
+
+.star-6 {
+  position: absolute;
+  fill: #ea8b19;
+  top: 5%;
+  left: 50%;
+  width: 5px;
+  height: auto;
+  filter: drop-shadow(0 0 0 #ea8b19);
+  z-index: -5;
+  transition: all .8s ease;
+}
+
+.btc:hover {
+  background: #000;
+  color: #ea8b19;
+  box-shadow: 0 0 50px #ea8b19;
+}
+
+.btc:hover .star-1 {
+  position: absolute;
+  top: -110%;
+  left: -60%;
+  width: 30px;
+  height: auto;
+  filter: drop-shadow(0 0 10px #ea8b19);
+  z-index: 2;
+}
+
+.btc:hover .star-2 {
+  position: absolute;
+  top: -45%;
+  left: 0%;
+  width: 20px;
+  height: auto;
+  filter: drop-shadow(0 0 10px #ea8b19);
+  z-index: 2;
+}
+
+.btc:hover .star-3 {
+  position: absolute;
+  top: 55%;
+  left: 15%;
+  width: 11px;
+  height: auto;
+  filter: drop-shadow(0 0 10px #ea8b19);
+  z-index: 2;
+}
+
+.btc:hover .star-4 {
+  position: absolute;
+  top: 45%;
+  left: 85%;
+  width: 15px;
+  height: auto;
+  filter: drop-shadow(0 0 10px #ea8b19);
+  z-index: 2;
+}
+
+.btc:hover .star-5 {
+  position: absolute;
+  top: 25%;
+  left: 140%;
+  width: 25px;
+  height: auto;
+  filter: drop-shadow(0 0 10px #ea8b19);
+  z-index: 2;
+}
+
+.btc:hover .star-6 {
+  position: absolute;
+  top: -5%;
+  left: 60%;
+  width: 15px;
+  height: auto;
+  filter: drop-shadow(0 0 10px #ea8b19);
+  z-index: 2;
+}
+
+.fil0 {
+  fill: #ea8b19;
+}
+
+.box {
+  width: 120px;
+  height: 45px;
+  float: left;
+  transition: .5s linear;
+  position: relative;
+  display: block;
+  padding: 8px;
+  margin: -10px -15.5px;
+  background: transparent;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+.box:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  color: white;
+  background: black;
+}
+
+.box:hover:before {
+  border-color: #fff;
+  height: 100%;
+  transform: translateX(0);
+  transition: .3s transform linear, .3s height linear .3s;
+}
+
+.box:hover:after {
+  border-color: #ea8b19;
+  height: 100%;
+  transform: translateX(0);
+  transition: .3s transform linear, .3s height linear .5s;
+}
+
+.box:before {
+  position: absolute;
+  content: '';
+  left: 0;
+  bottom: 0;
+  height: 4px;
+  width: 100%;
+  border-bottom: 4px solid transparent;
+  border-left: 4px solid transparent;
+  box-sizing: border-box;
+  transform: translateX(100%);
+}
+
+.box:after {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  border-top: 4px solid transparent;
+  border-right: 4px solid transparent;
+  box-sizing: border-box;
+  transform: translateX(-100%);
+}
+
+/* card profile */
+.card {
+  width: 230px;
+  height: 280px;
+  border-radius: 2em;
+  padding: 10px;
+  background-color: #191919;
+  box-shadow: 5px 5px 30px rgb(4, 4, 4),
+                   -5px -5px 30px rgb(57, 57, 57);
+}
+
+.profileimage {
+  background-color: transparent;
+  border: none;
+  margin-top: 20px;
+  border-radius: 5em;
+  width: 100px;
+  height: 100px;
+}
+
+.pfp {
+  border-radius: 35em;
+  fill: white;
+}
+
+.Name {
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding: 15px;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.socialbar {
+  background-color: #191919;
+  border-radius: 3em;
+  width: 90%;
+  padding: 14px;
+  margin-top: 15px;
+  color: white;
+  box-shadow: 3px 3px 15px rgb(0, 0, 0),
+                   -3px -3px 15px rgb(58, 58, 58);
+}
+
+.card a {
+  transition: 0.4s;
+  color: white
+}
+
+#github:hover {
+  color: #c9510c;
+}
+
+#instagram:hover {
+  color: #d62976;
+}
+
+#facebook:hover {
+  color: #3b5998;
+}
+
+#twitter:hover {
+  color: #00acee;
+}

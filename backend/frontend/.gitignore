@@ -1,0 +1,7 @@
+
+node_modules
+uploads
+.env
+package.json
+package-lock.json
+frontend/vite.config.js

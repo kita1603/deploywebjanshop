@@ -1,0 +1,76 @@
+#navigation-container {
+    width: 4%;
+    transition: width 0.3s ease-in-out;
+    overflow: hidden;
+  }
+  
+  #navigation-container:hover {
+    width: 15%;
+  }
+  
+  .nav-item-name {
+    display: none;
+    transition: opacity 0.2s ease-in-out;
+  }
+  
+  #navigation-container:hover .nav-item-name {
+    display: block;
+    opacity: 1;
+  }
+  
+  .search-input {
+    display: none;
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out; 
+  }
+  
+  #navigation-container:hover .search-input {
+    display: block;
+    opacity: 1;
+  }
+  
+  #navigation-container:hover .search-icon {
+    display: none;
+    transition: opacity 0.2s ease-in-out;
+  }
+
+
+
+  /* ne-on button */
+  neon-link {
+    /* position: relative;
+    display: inline-block;
+    padding: 5px 10px;
+    color: #2196f3;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 24px;
+    overflow: hiddepx
+    transition: 0.2s; */
+    
+  }
+  @keyframes neon-burn {
+    0% { box-shadow: 0 0 10px #2a59b6, 0 0 20px #2a59b6, 0 0 30px #2a59b6}
+    50% { box-shadow: 0 0 40px #0483a6, 0 0 80px #0483a6, 0 0 120px #0483a6}
+    100% { box-shadow: 0 0 20px #117d9c, 0 0 40px #117d9c, 0 0 60px #117d9c}
+}
+
+.neon-link:hover {
+    color: #0ef;
+    animation: neon-burn 1s infinite alternate;
+    border-radius: 8px;
+}
+
+.neon-link:active {
+  color: #feffff;
+  background: #4ba8f3;
+  box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+  border-radius: 8px;
+}
+
+neon-icon {
+  color: #0ef;
+  animation: neon-burn 1s infinite alternate;
+  border-radius: 8px; 
+}
